@@ -1,0 +1,146 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* カネヨシ工務店 ブランドカラー（中南部・都会・コンクリート＆赤瓦の差し色） */
+  --concrete: #5C6770;
+  --concrete-dark: #3A4147;
+  --concrete-light: #9BA3AB;
+  --terracotta: #C8633D;
+  --terracotta-dark: #9B4D2E;
+  --terracotta-light: #E08560;
+  --cream: #F4F1EB;
+  --paper: #FAF8F4;
+  --ink: #2A2D31;
+  --line-green: #06C755;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html, body {
+  overflow-x: clip;
+  max-width: 100%;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-feature-settings: "palt";
+  letter-spacing: 0.02em;
+  line-height: 1.8;
+  padding-bottom: 74px;
+}
+
+.reveal-up {
+  opacity: 0;
+  transform: translateY(28px);
+  transition:
+    opacity 720ms ease,
+    transform 720ms ease;
+}
+
+.reveal-up.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* 日本語の文字組み */
+h1, h2, h3, h4, p, li, blockquote, summary {
+  line-break: strict;
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
+
+/* 共通：セクションのコンテナ */
+.container-base {
+  width: min(1120px, 92%);
+  margin-inline: auto;
+}
+
+/* セクションタイトル装飾（コンクリート色の横線） */
+.section-eyebrow {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.25em;
+  color: var(--terracotta);
+  position: relative;
+  padding: 0 18px;
+}
+.section-eyebrow::before,
+.section-eyebrow::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 28px;
+  height: 1px;
+  background: var(--terracotta);
+}
+.section-eyebrow::before { right: 100%; }
+.section-eyebrow::after { left: 100%; }
+
+/* ボタン */
+.btn-base {
+  @apply inline-flex items-center justify-center gap-2 rounded-full font-bold transition;
+  padding: 0.95em 1.7em;
+  font-size: 15px;
+  white-space: nowrap;
+}
+.btn-base:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 24px rgba(58, 65, 71, .15);
+}
+.btn-primary {
+  background: var(--terracotta);
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(200, 99, 61, .15);
+}
+.btn-primary:hover { background: var(--terracotta-dark); }
+
+.btn-concrete {
+  background: var(--concrete-dark);
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(58, 65, 71, .12);
+}
+.btn-concrete:hover { background: var(--concrete); }
+
+.btn-outline-concrete {
+  border: 2px solid var(--concrete-dark);
+  color: var(--concrete-dark);
+  background: #fff;
+}
+.btn-outline-concrete:hover { background: var(--concrete-dark); color: #fff; }
+
+.btn-outline-white {
+  border: 2px solid #fff;
+  color: #fff;
+  background: transparent;
+}
+.btn-outline-white:hover { background: #fff; color: var(--concrete-dark); }
+
+.btn-line {
+  background: var(--line-green);
+  color: #fff;
+  padding: 0.58em 1.15em;
+  font-size: 13px;
+}
+.btn-line:hover { background: #04a747; }
+
+.btn-big { font-size: 17px; padding: 1.1em 2em; }
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal-up {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  .btn-base:hover {
+    transform: none;
+  }
+}

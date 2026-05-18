@@ -1,0 +1,140 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand: #1E5A8E;
+  --brand-dark: #163E60;
+  --brand-light: #3A7AB0;
+  --mint: #6FBFB5;
+  --mint-dark: #4F9F95;
+  --mint-light: #A6D9D2;
+  --beige: #F5EFE6;
+  --paper: #FAFAF7;
+  --ink: #2A2F36;
+  --sub: #5A636D;
+  --line-green: #06C755;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html, body {
+  overflow-x: clip;
+  max-width: 100%;
+}
+
+body {
+  background: #fff;
+  color: var(--ink);
+  font-feature-settings: "palt";
+  letter-spacing: 0.02em;
+  line-height: 1.8;
+  padding-bottom: 74px;
+}
+
+@supports (animation-timeline: view()) {
+  .reveal-up {
+    animation: reveal-up linear both;
+    animation-timeline: view();
+    animation-range: entry 8% cover 28%;
+  }
+
+  @keyframes reveal-up {
+    from {
+      opacity: 0.2;
+      transform: translateY(34px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+/* 日本語の文字組み */
+h1, h2, h3, h4, p, li, blockquote, summary {
+  line-break: strict;
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
+
+/* 共通：セクションのコンテナ */
+.container-base {
+  width: min(1120px, 92%);
+  margin-inline: auto;
+}
+
+/* セクションタイトル装飾 */
+.section-eyebrow {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.25em;
+  color: var(--brand);
+  position: relative;
+  padding: 0 18px;
+}
+.section-eyebrow::before,
+.section-eyebrow::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 28px;
+  height: 1px;
+  background: var(--brand);
+}
+.section-eyebrow::before { right: 100%; }
+.section-eyebrow::after { left: 100%; }
+
+/* ボタン */
+.btn-base {
+  @apply inline-flex items-center justify-center gap-2 rounded-full font-bold transition;
+  padding: 0.95em 1.7em;
+  font-size: 15px;
+  white-space: nowrap;
+}
+.btn-base:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 24px rgba(30, 90, 142, .15);
+}
+.btn-primary {
+  background: var(--brand);
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(30, 90, 142, .10);
+}
+.btn-primary:hover { background: var(--brand-dark); }
+
+.btn-mint {
+  background: var(--mint);
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(111, 191, 181, .12);
+}
+.btn-mint:hover { background: var(--mint-dark); }
+
+.btn-outline-brand {
+  border: 2px solid var(--brand);
+  color: var(--brand);
+  background: #fff;
+}
+.btn-outline-brand:hover { background: var(--brand); color: #fff; }
+
+.btn-outline-white {
+  border: 2px solid #fff;
+  color: #fff;
+  background: transparent;
+}
+.btn-outline-white:hover { background: #fff; color: var(--brand-dark); }
+
+.btn-line {
+  background: var(--line-green);
+  color: #fff;
+  padding: 0.58em 1.15em;
+  font-size: 13px;
+}
+.btn-line:hover { background: #04a747; }
+
+.btn-big { font-size: 17px; padding: 1.1em 2em; }

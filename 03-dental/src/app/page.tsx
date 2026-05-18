@@ -46,7 +46,7 @@ export default function HomePage() {
         <div className="container-base flex min-h-[72px] items-center gap-5">
           <a href="#top" className="mr-auto">
             <span className="block font-serif text-[19px] font-black tracking-[0.02em] text-brand-dark">
-              仲里歯科医院
+              サンプル歯科医院
             </span>
             <span className="block text-[10px] font-bold uppercase tracking-[0.22em] text-brand">
               Nakazato Dental Clinic
@@ -67,7 +67,7 @@ export default function HomePage() {
 
       <section id="top" className="relative min-h-[calc(100svh-72px)] overflow-hidden bg-brand-dark">
         <Image
-          src="/images/nakazato_hero_01.png"
+          src="/images/sample_hero_01.png"
           alt="自然光が入る清潔な歯科診療室"
           fill
           priority
@@ -94,7 +94,7 @@ export default function HomePage() {
             <div className="mt-9 flex flex-wrap gap-3">
               <a href="tel:0988628241" className="btn-base btn-primary btn-big">
                 <Phone size={19} />
-                電話で予約する（098-862-8241）
+                電話で予約する（098-000-0000）
               </a>
               <a href="#contact" className="btn-base btn-outline-white">
                 お問合せフォームへ
@@ -113,7 +113,7 @@ export default function HomePage() {
               地域に根ざして約40年。
             </h2>
             <p className="mt-6 text-[15px] leading-8 text-ink/75">
-              久米のまちで開業して以来、私たち仲里歯科医院は「患者さんと一緒に考える歯科医療」を大切にしてきました。歯科にかかる怖さや、説明が難しくてわからない不安に向き合い、一人ひとりへ丁寧にお応えします。
+              久米のまちで開業して以来、私たちサンプル歯科医院は「患者さんと一緒に考える歯科医療」を大切にしてきました。歯科にかかる怖さや、説明が難しくてわからない不安に向き合い、一人ひとりへ丁寧にお応えします。
             </p>
             <div className="mt-7 grid gap-3 sm:grid-cols-3">
               {[
@@ -130,14 +130,14 @@ export default function HomePage() {
           </div>
           <div className="grid gap-4 sm:grid-cols-2">
             <Image
-              src="/images/nakazato_staff_01.png"
+              src="/images/sample_staff_01.png"
               alt="受付スタッフと歯科衛生士の紹介イメージ"
               width={720}
               height={720}
               className="aspect-square rounded-[24px] object-cover shadow-card-md"
             />
             <Image
-              src="/images/nakazato_pediatric_01.png"
+              src="/images/sample_pediatric_01.png"
               alt="小児歯科で子どもへやさしく説明する歯科医師"
               width={720}
               height={720}
@@ -174,8 +174,8 @@ export default function HomePage() {
       <section id="doctor" className="bg-beige/45 py-20 md:py-24">
         <div className="container-base grid gap-10 lg:grid-cols-[0.82fr_1.18fr] lg:items-center">
           <Image
-            src="/images/nakazato_doctor_01.png"
-            alt="仲里歯科医院の院長挨拶イメージ"
+            src="/images/sample_doctor_01.png"
+            alt="サンプル歯科医院の院長挨拶イメージ"
             width={720}
             height={900}
             className="mx-auto aspect-[4/5] w-full max-w-[480px] rounded-[28px] object-cover shadow-card-md"
@@ -215,14 +215,14 @@ export default function HomePage() {
           </div>
           <div className="mt-12 grid gap-6 lg:grid-cols-2">
             <Image
-              src="/images/nakazato_equipment_01.png"
+              src="/images/sample_equipment_01.png"
               alt="滅菌器や診療チェアなど歯科設備のディテール"
               width={900}
               height={900}
               className="aspect-[4/3] rounded-[24px] object-cover shadow-card-md"
             />
             <Image
-              src="/images/nakazato_interior_01.png"
+              src="/images/sample_interior_01.png"
               alt="明るい待合室と受付の内観"
               width={900}
               height={900}
@@ -267,8 +267,8 @@ export default function HomePage() {
               旭橋駅から徒歩7分。駐車場4台完備。
             </h2>
             <div className="mt-7 space-y-4 text-ink/75">
-              <p className="flex gap-3"><MapPin className="mt-1 shrink-0 text-brand" size={20} />〒900-0033 沖縄県那覇市久米1-25-10 上の蔵ハイツ2階</p>
-              <p className="flex gap-3"><Phone className="mt-1 shrink-0 text-brand" size={20} />098-862-8241</p>
+              <p className="flex gap-3"><MapPin className="mt-1 shrink-0 text-brand" size={20} />〒900-0033 沖縄県〇〇市〇〇地区1-25-10 上の蔵ハイツ2階</p>
+              <p className="flex gap-3"><Phone className="mt-1 shrink-0 text-brand" size={20} />098-000-0000</p>
               <p className="flex gap-3"><Car className="mt-1 shrink-0 text-brand" size={20} />ゆいレール「旭橋駅」より徒歩7分 / 駐車場4台</p>
             </div>
           </div>
@@ -334,7 +334,7 @@ export default function HomePage() {
 
       <footer className="bg-white py-8">
         <div className="container-base flex flex-col gap-2 text-sm text-ink/60 md:flex-row md:items-center md:justify-between">
-          <p className="font-bold text-brand-dark">仲里歯科医院 デモLP</p>
+          <p className="font-bold text-brand-dark">サンプル歯科医院 デモLP</p>
           <p>掲載写真はデモサイト用のAI生成イメージです。</p>
         </div>
       </footer>

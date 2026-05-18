@@ -12,7 +12,7 @@ export default function Footer() {
             <p className="text-xs mt-1 opacity-70">運営：{SITE.group}</p>
           </div>
           <p className="text-[11px] opacity-70">
-            &copy; {new Date().getFullYear()} {SITE.name} ／ 那覇市田原・小禄駅5分の整骨院
+            &copy; {new Date().getFullYear()} {SITE.name} ／ 〇〇市〇〇地区・小禄駅5分の整骨院
           </p>
         </div>
       </div>

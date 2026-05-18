@@ -6,13 +6,13 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 export const SITE = {
-  name: "食彩酒房まつもと",
+  name: "サンプル居酒屋",
   nameEn: "MATSUMOTO AGU SHABU-SHABU",
-  metaTitle: "食彩酒房まつもと｜アグー豚しゃぶしゃぶ予約導線デモLP",
+  metaTitle: "サンプル居酒屋｜アグー豚しゃぶしゃぶ予約導線デモLP",
   metaDescription:
-    "那覇市松山のアグー豚しゃぶしゃぶ専門店、食彩酒房まつもと向け営業提案デモLPです。接待・記念日・観光利用の予約導線を整える構成です。",
-  keywords: ["食彩酒房まつもと", "居酒屋まつもと", "アグー豚", "しゃぶしゃぶ", "那覇松山", "沖縄料理"],
-  siteUrl: "https://matsumoto-demo.pages.dev",
+    "那覇市松山のアグー豚しゃぶしゃぶ専門店、サンプル居酒屋向け営業提案デモLPです。接待・記念日・観光利用の予約導線を整える構成です。",
+  keywords: ["サンプル居酒屋", "サンプル居酒屋", "アグー豚", "しゃぶしゃぶ", "那覇松山", "沖縄料理"],
+  siteUrl: "https://sample-restaurant.pages.dev",
   tel: "098-861-1890",
   telRaw: "0988611890",
   address: "沖縄県那覇市松山1-10-8 2F",

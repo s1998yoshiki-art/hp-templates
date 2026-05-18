@@ -63,7 +63,7 @@ const faqs = [
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "LegalService",
-  name: "長山行政書士事務所",
+  name: "サンプル行政書士事務所",
   areaServed: "沖縄県",
   serviceType: ["建設業許可", "経営事項審査", "入札参加資格申請"],
 };
@@ -77,10 +77,10 @@ export default function Page() {
       />
 
       <header className="site-header">
-        <a href="#top" className="brand" aria-label="長山行政書士事務所">
+        <a href="#top" className="brand" aria-label="サンプル行政書士事務所">
           <span className="brand-mark">N</span>
           <span>
-            <strong>長山行政書士事務所</strong>
+            <strong>サンプル行政書士事務所</strong>
             <small>Construction License Office</small>
           </span>
         </a>
@@ -92,9 +92,9 @@ export default function Page() {
         </nav>
       </header>
 
-      <section id="top" className="hero nagayama-hero">
+      <section id="top" className="hero sample-hero">
         <Image
-          src="/images/nagayama_hero_01.png"
+          src="/images/sample_hero_01.png"
           alt="行政書士のデスクと建設現場を組み合わせたヒーローイメージ"
           fill
           priority
@@ -136,8 +136,8 @@ export default function Page() {
       <section id="message" className="section message-section reveal">
         <div className="portrait-frame">
           <Image
-            src="/images/nagayama_director_02.png"
-            alt="長山行政書士事務所の所長ポートレートイメージ"
+            src="/images/sample_director_02.png"
+            alt="サンプル行政書士事務所の所長ポートレートイメージ"
             width={720}
             height={900}
             className="portrait-photo"
@@ -147,14 +147,14 @@ export default function Page() {
           <p className="section-label">Message</p>
           <h2>所長挨拶</h2>
           <p>
-            私たち長山行政書士事務所は、建設業許可・経営事項審査に特化した那覇市の行政書士事務所です。
+            私たちサンプル行政書士事務所は、建設業許可・経営事項審査に特化した那覇市の行政書士事務所です。
             「許可は取れたけれど、毎年の更新が大変」「経審の点数を上げたいが何から手をつければいいか分からない」
             そんなお声に応え続けてきました。
           </p>
           <p>
             ご相談は無料です。電話一本、フォーム一通から始めてください。
           </p>
-          <strong className="signature">所長　長山</strong>
+          <strong className="signature">所長　〇〇</strong>
         </div>
       </section>
 
@@ -165,7 +165,7 @@ export default function Page() {
         </div>
         <div className="services-layout">
           <Image
-            src="/images/nagayama_services_06.png"
+            src="/images/sample_services_06.png"
             alt="建設業許可や経審など4分野を表すミニマルな業務イメージ"
             width={760}
             height={760}
@@ -196,7 +196,7 @@ export default function Page() {
           </p>
         </div>
         <Image
-          src="/images/nagayama_meeting_03.png"
+          src="/images/sample_meeting_03.png"
           alt="行政書士と建設業経営者の打ち合わせイメージ"
           width={900}
           height={620}
@@ -212,7 +212,7 @@ export default function Page() {
             難易度・書類量により増減します。正式なお見積りは初回相談後にご提示します。
           </p>
           <Image
-            src="/images/nagayama_documents_04.png"
+            src="/images/sample_documents_04.png"
             alt="申請書類と印鑑のクローズアップ"
             width={860}
             height={620}
@@ -261,7 +261,7 @@ export default function Page() {
 
       <section id="access" className="section access-section muted reveal">
         <Image
-          src="/images/nagayama_office_05.png"
+          src="/images/sample_office_05.png"
           alt="落ち着いた行政書士事務所の外観イメージ"
           width={900}
           height={620}
@@ -321,7 +321,7 @@ export default function Page() {
       </nav>
 
       <footer>
-        <p>長山行政書士事務所 デモLP</p>
+        <p>サンプル行政書士事務所 デモLP</p>
         <p>掲載情報・写真は営業提案用サンプルです。正式情報は事業者確認後に反映します。</p>
       </footer>
     </main>

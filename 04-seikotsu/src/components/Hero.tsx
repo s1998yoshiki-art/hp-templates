@@ -24,7 +24,7 @@ export default function Hero() {
       <div className="container-base relative py-24 md:py-32 lg:py-40">
         <div className="max-w-2xl">
           <p className="inline-block text-[12px] md:text-[13px] font-bold tracking-[0.18em] text-paper bg-accent/80 ring-1 ring-paper/30 backdrop-blur-sm px-4 py-1.5 rounded-full mb-6 drop-shadow">
-            那覇市田原・小禄駅徒歩5分／平日19:30まで・土日祝も対応
+            〇〇市〇〇地区・〇〇駅徒歩〇分／平日19:30まで・土日祝も対応
           </p>
           <h1
             className="font-black text-paper font-serif leading-[1.3] mb-6 drop-shadow-[0_2px_10px_rgba(0,0,0,0.5)]"

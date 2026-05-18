@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  /* カネヨシ工務店 ブランドカラー（中南部・都会・コンクリート＆赤瓦の差し色） */
+  /* サンプル工務店 ブランドカラー（中南部・都会・コンクリート＆赤瓦の差し色） */
   --concrete: #5C6770;
   --concrete-dark: #3A4147;
   --concrete-light: #9BA3AB;

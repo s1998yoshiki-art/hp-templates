@@ -18,13 +18,13 @@ const notoSerifJp = Noto_Serif_JP({
 
 export const metadata: Metadata = {
   title: {
-    default: "仲里歯科医院｜家族4世代の、かかりつけ歯科医院。那覇市久米",
-    template: "%s | 仲里歯科医院",
+    default: "サンプル歯科医院｜家族4世代の、かかりつけ歯科医院。〇〇市〇〇地区",
+    template: "%s | サンプル歯科医院",
   },
   description:
-    "開業40年／那覇市久米の仲里歯科医院。親子2代で守り続ける、家族4世代で通えるかかりつけ歯科医院。一般歯科・小児歯科・矯正・インプラント・審美治療まで対応。旭橋駅徒歩7分。",
+    "開業40年／〇〇市〇〇地区のサンプル歯科医院。親子2代で守り続ける、家族4世代で通えるかかりつけ歯科医院。一般歯科・小児歯科・矯正・インプラント・審美治療まで対応。旭橋駅徒歩7分。",
   keywords: [
-    "仲里歯科医院",
+    "サンプル歯科医院",
     "那覇市",
     "久米",
     "歯医者",
@@ -36,30 +36,30 @@ export const metadata: Metadata = {
     "旭橋駅",
     "かかりつけ歯科",
   ],
-  metadataBase: new URL("https://nakazato-demo.pages.dev"),
+  metadataBase: new URL("https://sample-dental.pages.dev"),
   openGraph: {
     type: "website",
     locale: "ja_JP",
-    url: "https://nakazato-demo.pages.dev/",
-    siteName: "仲里歯科医院",
-    title: "仲里歯科医院｜家族4世代の、かかりつけ歯科医院。",
+    url: "https://sample-dental.pages.dev/",
+    siteName: "サンプル歯科医院",
+    title: "サンプル歯科医院｜家族4世代の、かかりつけ歯科医院。",
     description:
-      "開業40年／親子2代／那覇市久米。赤ちゃんからお年寄りまで、家族みんなで通える歯科医院です。一般歯科・小児歯科・矯正・インプラント対応。",
+      "開業40年／親子2代／〇〇市〇〇地区。赤ちゃんからお年寄りまで、家族みんなで通える歯科医院です。一般歯科・小児歯科・矯正・インプラント対応。",
     images: [
       {
-        url: "https://nakazato-demo.pages.dev/ogp.png",
+        url: "https://sample-dental.pages.dev/ogp.png",
         width: 1200,
         height: 630,
-        alt: "仲里歯科医院｜家族4世代の、かかりつけ歯科医院。",
+        alt: "サンプル歯科医院｜家族4世代の、かかりつけ歯科医院。",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "仲里歯科医院｜家族4世代の、かかりつけ歯科医院。",
+    title: "サンプル歯科医院｜家族4世代の、かかりつけ歯科医院。",
     description:
-      "開業40年／親子2代／那覇市久米。赤ちゃんからお年寄りまで、家族みんなで通える歯科医院です。一般歯科・小児歯科・矯正・インプラント対応。",
-    images: ["https://nakazato-demo.pages.dev/ogp.png"],
+      "開業40年／親子2代／〇〇市〇〇地区。赤ちゃんからお年寄りまで、家族みんなで通える歯科医院です。一般歯科・小児歯科・矯正・インプラント対応。",
+    images: ["https://sample-dental.pages.dev/ogp.png"],
   },
   robots: { index: false, follow: false }, // デモサイトのため非インデックス
 };

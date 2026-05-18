@@ -7,7 +7,7 @@ export default function Header() {
       <div className="container-base flex items-center gap-6 h-[72px]">
         <Link href="#top" className="flex flex-col leading-tight">
           <span className="text-[20px] font-black tracking-[0.04em] text-brand-dark font-serif">
-            ワイズ那覇整骨院
+            サンプル整骨院
           </span>
           <span className="text-[10px] tracking-[0.2em] text-accent">
             Y&apos;S NAHA SEIKOTSU-IN

@@ -2,20 +2,20 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "長山行政書士事務所｜沖縄の許認可・補助金・相続相談",
+  title: "サンプル行政書士事務所｜沖縄の許認可・補助金・相続相談",
   description:
     "沖縄県浦添市エリアの行政書士デモLP。許認可申請、補助金申請サポート、相続関連書類の相談導線を分かりやすく整理した営業用サンプルです。",
-  metadataBase: new URL("https://nagayama-demo-codex-experimental.pages.dev"),
+  metadataBase: new URL("https://sample-shigyo.pages.dev"),
   robots: {
     index: false,
     follow: false,
   },
   openGraph: {
-    title: "長山行政書士事務所｜沖縄の許認可・補助金・相続相談",
+    title: "サンプル行政書士事務所｜沖縄の許認可・補助金・相続相談",
     description:
       "手続きの不安を、相談しやすい導線に。沖縄県浦添市エリアの行政書士デモLP。",
-    url: "https://nagayama-demo-codex-experimental.pages.dev",
-    siteName: "長山行政書士事務所 デモLP",
+    url: "https://sample-shigyo.pages.dev",
+    siteName: "サンプル行政書士事務所 デモLP",
     locale: "ja_JP",
     type: "website",
     images: [
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "長山行政書士事務所｜沖縄の許認可・補助金・相続相談",
+    title: "サンプル行政書士事務所｜沖縄の許認可・補助金・相続相談",
     description:
       "沖縄県浦添市エリアの行政書士デモLP。許認可・補助金・相続の相談導線を整理。",
     images: [

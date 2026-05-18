@@ -38,7 +38,7 @@ export default function Hero() {
             <br className="hidden md:inline" />
             家族みんなで通える歯科医院を、
             <br />
-            那覇市久米の地で 40 年、
+            〇〇市〇〇地区の地で 40 年、
             <br className="hidden md:inline" />
             親子2代で守り続けています。
           </p>

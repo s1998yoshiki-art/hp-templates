@@ -33,7 +33,7 @@ export default function HomePage() {
             className="text-center font-black text-brand-dark font-serif mb-4"
             style={{ fontSize: "clamp(28px, 3.5vw, 40px)" }}
           >
-            那覇市田原で、選ばれている理由。
+            〇〇市〇〇地区で、選ばれている理由。
           </h2>
           <p className="text-center text-ink/70 text-base mb-12">
             「丁寧に説明してくれる」「原因を一緒に考えてくれる」というお声を、<br className="hidden md:inline" />
@@ -490,7 +490,7 @@ const CLINIC = [
     alt: "施術室",
   },
   {
-    title: "小禄駅徒歩5分・通いやすい立地",
+    title: "〇〇駅徒歩〇分・通いやすい立地",
     body: "ゆいレール沿線でアクセス良好。お仕事帰り・お買い物のついでに通いやすい立地です。",
     image: "/images/clinic3-location.png",
     alt: "院の外観・立地イメージ",

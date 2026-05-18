@@ -7,7 +7,7 @@ export default function Header() {
       <div className="container-base flex items-center gap-6 h-[72px]">
         <Link href="#top" className="flex flex-col leading-tight">
           <span className="text-[20px] font-black tracking-[0.04em] text-concrete-dark font-serif">
-            カネヨシ工務店
+            サンプル工務店
           </span>
           <span className="text-[10px] tracking-[0.2em] text-concrete">
             KANEYOSHI KOUMUTEN
